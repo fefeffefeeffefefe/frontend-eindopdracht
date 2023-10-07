@@ -1,26 +1,26 @@
 html {
     scroll-behavior: smooth;
-    color: #FFFFFF;
 }
 
 .container {
-    max-width: 1000px;
     margin: 0 auto;
     box-sizing: border-box;
 }
 
 body {
     margin: 0;
-    background-color: #000000;
 }
 
 nav {
     display: flex;
     position: sticky;
     background-color: #200000;
+    top: 0;
+    justify-content: space-between;
+    padding: 20px;
 }
 
-nav a {
+nav div a {
     padding: 20px;
     text-decoration: none;
     color: #FFFFFF;
@@ -34,7 +34,7 @@ header {
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 10vh 25%;
+    padding: 20% 25%;
     background-image: url(../img/blauwe-pijlgifkikker.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -72,7 +72,9 @@ h2 {
     display: flex;
     justify-content: space-evenly;
     gap: 20px;
-    margin: 0 100px;
+    margin: 0 100px 100px 100px;
+    color: #FFFFFF;
+
 }
 
 #sub-products a {
@@ -84,14 +86,22 @@ h2 {
     border-radius: 10%;
 }
 
-#sub-products a:hover{
+#sub-products a:hover {
     color: #000000;
     background-color: #FFFFFF;
 }
 
+.product-card {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #000000;
+    border-radius: 8px;
+}
+
 .product-card img {
     width: 100%;
-    
+    border-bottom: 2px solid #000000;
+
 }
 
 .product-card div {
@@ -99,3 +109,46 @@ h2 {
     background-color: #200000;
 }
 
+h4 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+#forum-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 0 25% 5% 25%;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 5px;
+}
+
+.sub-forum-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+input, select {
+    flex: 2;
+    padding: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 6px;
+    border-radius: 8px;
+    background-color: brown;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: wheat;
+}

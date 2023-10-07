@@ -12,11 +12,13 @@
     <div class="container">
         <nav>
             <img src="" alt="logo">
-            <a href="#">link</a>
-            <a href="#">link</a>
-            <a href="#">link</a>
-            <a href="#">link</a>
-            <a href="#">link</a>
+            <div>
+                <a href="#">link</a>
+                <a href="#">link</a>
+                <a href="#">link</a>
+                <a href="#">link</a>
+                <a href="#">link</a>
+            </div>
         </nav>
 
         <header>
@@ -67,6 +69,81 @@
                 </section>
 
             </section>
+
+            <form action="contact-bedankt.html">
+
+                <div>
+                    <h4>Forum</h4>
+                </div>
+                <div id="forum-container">
+                    <div class="sub-forum-container">
+                        <div class="info-container">
+                            <label for="name">Voornaam</label>
+                            <input type="text" name="name" id="name" placeholder="Voornaam" required>
+                        </div>
+
+                        <div class="info-container">
+                            <label for="lastName">Achternaam</label>
+                            <input type="text" name="name" id="lastName" placeholder="Achternaam" required>
+                        </div>
+                    </div>
+
+                    <div class="info-container">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Email" required>
+                    </div>
+
+                    <div class="sub-forum-container">
+                        <div class="info-container">
+                            <label for="city">Woonplaats</label>
+                            <input type="text" name="city" id="city" placeholder="Woonplaats" required>
+                        </div>
+
+                        <div class="info-container">
+                            <label for="birthdate">Geboortedatum</label>
+                            <input type="date" name="birthdate" id="birthdate" required>
+                        </div>
+                    </div>
+
+                    <div class="info-container">
+                        <label for="send-to">Onderwerp</label>
+                        <select name="send-to" id="send-to" required>
+                            <option value="" disabled selected>Kies onderwerp van het bericht...</option>
+                            <option value="0">Vraag</option>
+                            <option value="1">Opmerking</option>
+                            <option value="2">Klacht</option>
+                        </select>
+                    </div>
+
+                    <div class="info-container">
+                        <label for="question">Bericht</label>
+                        <textarea name="question" id="question" cols="30" rows="10"></textarea>
+                    </div>
+
+
+                    <div>
+                        <p>Inschrijven voor nieuwsbrief?</p>
+
+                        <input type="radio" name="category" id="ja" value="ja">
+                        <label for="ja">Ja</label>
+
+                        <input type="radio" name="category" id="nee" value="nee">
+                        <label for="nee">Nee</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" name="checkbox" id="checkbox" required>
+                        <label for="checkbox">Ik ga akkoord met de <a href="#">algemene voorwaarden</a>*</label>
+                    </div>
+
+                    <div>
+                        <button type="submit">Verstuur</button>
+                    </div>
+                </div>
+
+            </form>
+
+
         </main>
 
     </div>
