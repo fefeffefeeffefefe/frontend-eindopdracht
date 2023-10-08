@@ -11,60 +11,81 @@
 <body>
     <div class="container">
         <nav>
-            <img src="" alt="logo">
-            <div>
-                <a href="#">link</a>
-                <a href="#">link</a>
-                <a href="#">link</a>
-                <a href="#">link</a>
-                <a href="#">link</a>
+            <img src="img/travel-agency.jpg" alt="logo" class="logo">
+            <div id="nav-items">
+                <a href="#sub-products">Alternatieve Reizen</a>
+                <a href="#forum-container">Forum</a>
+                <a href="#" id="heavy-nav-item">Login</a>
             </div>
         </nav>
 
         <header>
-            <h1>Filler Text</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum ut, repellat nam rem animi nesciunt
-                voluptate itaque totam ratione qui delectus numquam quo deleniti fugit voluptatem maiores illo molestias
-                ab tempora corporis ducimus minus odit! Sed fugit ipsum sequi nemo quaerat natus ducimus illum
-                dignissimos reprehenderit rerum, nostrum similique soluta!</p>
+            <h1>IJsland</h1>
+            <p>IJsland betovert met zijn ongeëvenaarde natuurpracht. Bezoekers worden ondergedompeld in een wereld van
+                geothermische wonderen, torenhoge watervallen en dramatische gletsjers. Het land herbergt geisers die de
+                aarde laten ademen en zwarte zandstranden die contrasteren met azuurblauwe ijsbergen. Voor avonturiers
+                biedt IJsland activiteiten zoals gletsjertochten, walvissafari's en trektochten door lavavelden.
+                Daarnaast kent IJsland een rijke folklore en cultuur, met kleurrijke legendes en het bruisende Reykjavik
+                als cultureel centrum. Het is een land van contrasten, waar rust en ruigheid samenkomen. Een vakantie in
+                IJsland is een ervaring die je voor altijd bijblijft, een unieke reis naar het hart van de natuur.</p>
             <div>
-                <a href="#">link</a>
-                <a href="#">link</a>
+                <a href="https://www.google.com/?hl=nl" target="_blank">Tripadvisers</a>
+                <a href="https://www.google.com/?hl=nl" target="_blank">Boek Hier</a>
             </div>
         </header>
 
         <main>
-            <h2>Subheading</h2>
+            <h2>Alternatieve Reizen</h2>
 
             <section id="sub-products">
 
                 <section class="product-card">
-                    <img src="img/blauwe-pijlgifkikker.jpg" alt="">
-                    <div>
-                        <h3>test</h3>
-                        <p>★★★★★</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, ad.</p>
-                        <a href="#">link</a>
+                    <img src="img/sweden-landscape.jpg" alt="sweden landscape">
+                    <div class="product-card-info-container">
+                        <h3>Zweden</h3>
+                        <div class="stars-container">
+                            <p class="stars-color">★★★★★</p>
+                        </div>
+                        <p>Ontdek de betoverende natuur, rijke cultuur en vriendelijke mensen van Zweden. Van
+                            adembenemende landschappen tot bruisende steden, Zweden heeft voor iedereen iets te bieden.
+                        </p>
+                        <div class="product-card-link">
+                            <a href="https://www.google.com/?hl=nl" target="_blank">Boek Hier</a>
+                        </div>
                     </div>
                 </section>
 
                 <section class="product-card">
-                    <img src="img/blauwe-pijlgifkikker.jpg" alt="">
-                    <div>
-                        <h3>test</h3>
-                        <p>★★★★★</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, ad.</p>
-                        <a href="#">link</a>
+                    <img src="img/norway-landscape.jpg" alt="norway landscape">
+                    <div class="product-card-info-container">
+                        <h3>Noorwegen</h3>
+                        <div class="stars-container">
+                            <p class="stars-color">★★★★</p>
+                            <p>★</p>
+                        </div>
+                        <p>Verken de majestueuze fjorden, besneeuwde bergen en ongerepte wildernis van Noorwegen. Ontdek
+                            haar Vikinggeschiedenis en ervaar de rust van de natuur. Noorwegen is een avontuurlijke
+                            droom.</p>
+                        <div class="product-card-link">
+                            <a href="https://www.google.com/?hl=nl" target="_blank">Boek Hier</a>
+                        </div>
                     </div>
                 </section>
 
                 <section class="product-card">
-                    <img src="img/blauwe-pijlgifkikker.jpg" alt="">
-                    <div>
-                        <h3>test</h3>
-                        <p>★★★★★</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, ad.</p>
-                        <a href="#">link</a>
+                    <img src="img/denmark-landscape.jpg" alt="denmark landscape">
+                    <div class="product-card-info-container">
+                        <h3>Denemarken</h3>
+                        <div class="stars-container">
+                            <p class="stars-color">★★★★</p>
+                            <p>★</p>
+                        </div>
+                        <p>Geniet van de schilderachtige kustlijnen, historische charme en gezellige sfeer van
+                            Denemarken. Verken kleurrijke stadjes, proef heerlijke Deense gerechten en ervaar het geluk
+                            van hygge.</p>
+                        <div class="product-card-link">
+                            <a href="https://www.google.com/?hl=nl" target="_blank">Boek Hier</a>
+                        </div>
                     </div>
                 </section>
 
@@ -75,7 +96,7 @@
                 <div>
                     <h4>Forum</h4>
                 </div>
-                <div id="forum-container">
+                <section id="forum-container">
                     <div class="sub-forum-container">
                         <div class="info-container">
                             <label for="name">Voornaam</label>
@@ -139,14 +160,39 @@
                     <div>
                         <button type="submit">Verstuur</button>
                     </div>
-                </div>
+                </section>
 
             </form>
+
+            <footer>
+                <section id="footer-container">
+                    <div id="footer-left-side">
+                        <img src="img/travel-agency.jpg" alt="logo" class="logo">
+                        <p>Copyright 2023 Teenstra</p>
+                        <div id="footer-img-container">
+                            <img src="img/instagram-logo.png" alt="logo">
+                            <img src="img/facebook-logo.png" alt="logo">
+                            <img src="img/snapchat-logo.png" alt="logo">
+                        </div>
+                    </div>
+                    <div id="footer-link-container">
+                        <a href="#">Privacyverklaring</a>
+                        <a href="#">Algemene voorwaarden</a>
+                        <a href="#">Cookiebeleid</a>
+                        <a href="#">Contact</a>
+                    </div>
+                </section>
+            </footer>
 
 
         </main>
 
     </div>
+    <section id="chat-box">
+        <p>Chat bot</p>
+        <textarea name="question" id="question" cols="20" rows="4" placeholder="Hoe kan ik u helpen..."></textarea>
+    </section>
+
 </body>
 
 </html>
